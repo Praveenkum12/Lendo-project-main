@@ -1,0 +1,60 @@
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.rotate-span-one {
+  position: absolute;
+  top: 30%;
+  left: -3rem;
+
+  transform: rotate(-90deg);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e61818;
+  letter-spacing: 4px;
+}
+
+.rotate-span-two {
+  position: absolute;
+  top: 60%;
+  left: -7rem;
+
+  transform: rotate(-90deg);
+  font-size: 1.4rem;
+  color: #e61818;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+}
+
+.common-btn:link,
+.common-btn:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 2.1rem 3.3rem 2.1rem 2.5rem;
+  background-color: #e61818;
+  letter-spacing: 1.5px;
+  color: #fff;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.arrow {
+  transition: all .3s;
+}
+
+.common-btn:hover .arrow {
+  padding-left: .3rem;
+}
