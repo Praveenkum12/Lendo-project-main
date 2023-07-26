@@ -93,3 +93,5 @@ const reasonOpt = {
 
 const reasonBoxObserver = new IntersectionObserver(reasonFun, reasonOpt);
 reasonBoxObserver.observe(reasonEl);
+
+// done
